@@ -16,7 +16,9 @@ const ChatButton = styled.button`
     cursor: pointer;
 
     &:hover {
-        background-color: #299ca8;
+        color: #50B4BF;
+        background:  #fff;
+        transition: 0.5s;
     }
 `
 

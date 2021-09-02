@@ -17,9 +17,17 @@ const Barra = styled.div`
 const ContainerCabecalho = styled.div`
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 
     align-items: center;
     margin-bottom: 3em;
+
+    .logotipo{
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+    }
 
     .titulo {
         font: 700 2.2em Montserrat;
